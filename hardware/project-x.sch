@@ -1,0 +1,324 @@
+EESchema Schematic File Version 2
+LIBS:power
+LIBS:device
+LIBS:switches
+LIBS:relays
+LIBS:motors
+LIBS:transistors
+LIBS:conn
+LIBS:linear
+LIBS:regul
+LIBS:74xx
+LIBS:cmos4000
+LIBS:adc-dac
+LIBS:memory
+LIBS:xilinx
+LIBS:microcontrollers
+LIBS:dsp
+LIBS:microchip
+LIBS:analog_switches
+LIBS:motorola
+LIBS:texas
+LIBS:intel
+LIBS:audio
+LIBS:interface
+LIBS:digital-audio
+LIBS:philips
+LIBS:display
+LIBS:cypress
+LIBS:siliconi
+LIBS:opto
+LIBS:atmel
+LIBS:contrib
+LIBS:valves
+LIBS:arduino
+LIBS:project-x-cache
+EELAYER 25 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L Arduino_Micro_Socket XA?
+U 1 1 5BD3A6C9
+P 3350 2150
+F 0 "XA?" V 3450 2150 60  0000 C CNN
+F 1 "Arduino_Micro_Socket" V 3250 2150 60  0000 C CNN
+F 2 "" H 5150 5900 60  0001 C CNN
+F 3 "" H 5150 5900 60  0001 C CNN
+	1    3350 2150
+	1    0    0    -1  
+$EndComp
+$Comp
+L Conn_01x02 J?
+U 1 1 5BD3A739
+P 1500 4000
+F 0 "J?" H 1500 4100 50  0000 C CNN
+F 1 "Conn_01x02" H 1500 3800 50  0000 C CNN
+F 2 "" H 1500 4000 50  0001 C CNN
+F 3 "" H 1500 4000 50  0001 C CNN
+	1    1500 4000
+	1    0    0    -1  
+$EndComp
+$Comp
+L LED D?
+U 1 1 5BD3A84D
+P 2200 4050
+F 0 "D?" H 2200 4150 50  0000 C CNN
+F 1 "LED" H 2200 3950 50  0000 C CNN
+F 2 "" H 2200 4050 50  0001 C CNN
+F 3 "" H 2200 4050 50  0001 C CNN
+	1    2200 4050
+	1    0    0    -1  
+$EndComp
+$Comp
+L LED D?
+U 1 1 5BD3A889
+P 2200 4350
+F 0 "D?" H 2200 4450 50  0000 C CNN
+F 1 "LED" H 2200 4250 50  0000 C CNN
+F 2 "" H 2200 4350 50  0001 C CNN
+F 3 "" H 2200 4350 50  0001 C CNN
+	1    2200 4350
+	1    0    0    -1  
+$EndComp
+$Comp
+L LED D?
+U 1 1 5BD3A8AF
+P 2200 4650
+F 0 "D?" H 2200 4750 50  0000 C CNN
+F 1 "LED" H 2200 4550 50  0000 C CNN
+F 2 "" H 2200 4650 50  0001 C CNN
+F 3 "" H 2200 4650 50  0001 C CNN
+	1    2200 4650
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R?
+U 1 1 5BD3A8D3
+P 2650 4050
+F 0 "R?" V 2730 4050 50  0000 C CNN
+F 1 "R" V 2650 4050 50  0000 C CNN
+F 2 "" V 2580 4050 50  0001 C CNN
+F 3 "" H 2650 4050 50  0001 C CNN
+	1    2650 4050
+	0    1    1    0   
+$EndComp
+$Comp
+L R R?
+U 1 1 5BD3A8F8
+P 2650 4350
+F 0 "R?" V 2730 4350 50  0000 C CNN
+F 1 "R" V 2650 4350 50  0000 C CNN
+F 2 "" V 2580 4350 50  0001 C CNN
+F 3 "" H 2650 4350 50  0001 C CNN
+	1    2650 4350
+	0    1    1    0   
+$EndComp
+$Comp
+L R R?
+U 1 1 5BD3A947
+P 2650 4650
+F 0 "R?" V 2730 4650 50  0000 C CNN
+F 1 "R" V 2650 4650 50  0000 C CNN
+F 2 "" V 2580 4650 50  0001 C CNN
+F 3 "" H 2650 4650 50  0001 C CNN
+	1    2650 4650
+	0    1    1    0   
+$EndComp
+$Comp
+L Conn_01x04 J?
+U 1 1 5BD3A97E
+P 1600 5100
+F 0 "J?" H 1600 5300 50  0000 C CNN
+F 1 "Conn_01x04" H 1600 4800 50  0000 C CNN
+F 2 "" H 1600 5100 50  0001 C CNN
+F 3 "" H 1600 5100 50  0001 C CNN
+	1    1600 5100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Conn_01x04 J?
+U 1 1 5BD3AB10
+P 1950 5800
+F 0 "J?" H 1950 6000 50  0000 C CNN
+F 1 "Conn_01x04" H 1950 5500 50  0000 C CNN
+F 2 "" H 1950 5800 50  0001 C CNN
+F 3 "" H 1950 5800 50  0001 C CNN
+	1    1950 5800
+	1    0    0    -1  
+$EndComp
+$Comp
+L Conn_01x06 J?
+U 1 1 5BD3AB69
+P 2700 5250
+F 0 "J?" H 2700 5550 50  0000 C CNN
+F 1 "Conn_01x06" H 2700 4850 50  0000 C CNN
+F 2 "" H 2700 5250 50  0001 C CNN
+F 3 "" H 2700 5250 50  0001 C CNN
+	1    2700 5250
+	1    0    0    -1  
+$EndComp
+$Comp
+L TSOP384xx U?
+U 1 1 5BD3B051
+P 4800 4150
+F 0 "U?" H 4400 4450 50  0000 L CNN
+F 1 "TSOP384xx" H 4400 3850 50  0000 L CNN
+F 2 "Opto-Devices:IRReceiver_Vishay_MINICAST-3pin" H 4750 3775 50  0001 C CNN
+F 3 "" H 5450 4450 50  0001 C CNN
+	1    4800 4150
+	1    0    0    -1  
+$EndComp
+$Comp
+L CQY99 D?
+U 1 1 5BD3B0B4
+P 4700 4800
+F 0 "D?" H 4720 4870 50  0000 L CNN
+F 1 "CQY99" H 4660 4690 50  0000 C CNN
+F 2 "LEDs:LED_D5.0mm" H 4700 4975 50  0001 C CNN
+F 3 "" H 4650 4800 50  0001 C CNN
+	1    4700 4800
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R?
+U 1 1 5BD3B136
+P 5050 4800
+F 0 "R?" V 5130 4800 50  0000 C CNN
+F 1 "R" V 5050 4800 50  0000 C CNN
+F 2 "" V 4980 4800 50  0001 C CNN
+F 3 "" H 5050 4800 50  0001 C CNN
+	1    5050 4800
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	4650 2350 5150 2350
+Wire Wire Line
+	4650 2450 5150 2450
+Wire Wire Line
+	4650 2550 5150 2550
+Wire Wire Line
+	4650 2650 5150 2650
+Wire Wire Line
+	2350 4050 2500 4050
+Wire Wire Line
+	2500 4350 2350 4350
+Wire Wire Line
+	2350 4650 2500 4650
+Wire Wire Line
+	2050 4050 1900 4050
+Wire Wire Line
+	1900 4050 1900 4850
+Wire Wire Line
+	2050 4650 1900 4650
+Connection ~ 1900 4650
+Wire Wire Line
+	2050 4350 1900 4350
+Connection ~ 1900 4350
+$Comp
+L GND #PWR?
+U 1 1 5BD452CA
+P 1900 4850
+F 0 "#PWR?" H 1900 4600 50  0001 C CNN
+F 1 "GND" H 1900 4700 50  0000 C CNN
+F 2 "" H 1900 4850 50  0001 C CNN
+F 3 "" H 1900 4850 50  0001 C CNN
+	1    1900 4850
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR?
+U 1 1 5BD45340
+P 4400 4950
+F 0 "#PWR?" H 4400 4700 50  0001 C CNN
+F 1 "GND" H 4400 4800 50  0000 C CNN
+F 2 "" H 4400 4950 50  0001 C CNN
+F 3 "" H 4400 4950 50  0001 C CNN
+	1    4400 4950
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR?
+U 1 1 5BD4537C
+P 1150 4200
+F 0 "#PWR?" H 1150 3950 50  0001 C CNN
+F 1 "GND" H 1150 4050 50  0000 C CNN
+F 2 "" H 1150 4200 50  0001 C CNN
+F 3 "" H 1150 4200 50  0001 C CNN
+	1    1150 4200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1300 4100 1150 4100
+Wire Wire Line
+	1150 4100 1150 4200
+Wire Wire Line
+	4400 4950 4400 4800
+Wire Wire Line
+	4400 4800 4500 4800
+Wire Wire Line
+	4900 4800 4800 4800
+$Comp
+L GND #PWR?
+U 1 1 5BD4541D
+P 5350 4400
+F 0 "#PWR?" H 5350 4150 50  0001 C CNN
+F 1 "GND" H 5350 4250 50  0000 C CNN
+F 2 "" H 5350 4400 50  0001 C CNN
+F 3 "" H 5350 4400 50  0001 C CNN
+	1    5350 4400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5200 4350 5350 4350
+Wire Wire Line
+	5350 4350 5350 4400
+Wire Wire Line
+	1300 4000 1150 4000
+Wire Wire Line
+	1150 4000 1150 3900
+$Comp
+L +BATT #PWR?
+U 1 1 5BD4548E
+P 1150 3900
+F 0 "#PWR?" H 1150 3750 50  0001 C CNN
+F 1 "+BATT" H 1150 4040 50  0000 C CNN
+F 2 "" H 1150 3900 50  0001 C CNN
+F 3 "" H 1150 3900 50  0001 C CNN
+	1    1150 3900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1700 3050 2050 3050
+Wire Wire Line
+	1700 3050 1700 2950
+$Comp
+L +BATT #PWR?
+U 1 1 5BD45538
+P 1700 2950
+F 0 "#PWR?" H 1700 2800 50  0001 C CNN
+F 1 "+BATT" H 1700 3090 50  0000 C CNN
+F 2 "" H 1700 2950 50  0001 C CNN
+F 3 "" H 1700 2950 50  0001 C CNN
+	1    1700 2950
+	1    0    0    -1  
+$EndComp
+Text Label 5150 2350 2    60   ~ 0
+MISO
+Text Label 5150 2450 2    60   ~ 0
+MOSI
+Text Label 5150 2550 2    60   ~ 0
+SCK
+Text Label 5150 2650 2    60   ~ 0
+SS
+$EndSCHEMATC
