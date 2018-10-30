@@ -1349,7 +1349,7 @@
   )
 
   (module def-footprints:Logo_ASROB_2.5x2.5_cm (layer B.Cu) (tedit 0) (tstamp 5BD66B47)
-    (at 140.4 77.3 180)
+    (at 140.3 76.5 180)
     (fp_text reference G*** (at 0 0 180) (layer B.SilkS) hide
       (effects (font (thickness 0.3)) (justify mirror))
     )
