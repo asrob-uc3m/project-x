@@ -17,3 +17,8 @@ Carreras de coches RC en FPV
 No están siendo usados por el prototipo oficial, pero sí por otros prototipos:
 
 * [Gafas FPV - Eachine VR-007 Pro - Banggood](https://www.banggood.com/Eachine-VR-007-Pro-VR007-5_8G-40CH-HD-FPV-Goggles-4_3-Inch-Video-Headset-With-3_7V-1600mAh-Battery-p-1134154.html?rmmds=search&cur_warehouse=USA)
+
+
+## Atribuciones
+
+* [Fuente logo](https://www.dafont.com/es/dream-mma.font?text=PROJECT-X&back=theme)
