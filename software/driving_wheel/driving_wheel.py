@@ -8,8 +8,8 @@ WHITE = (255, 255, 255)
 # Car states
 left = False
 right = False
-forward = False
-backwards = False
+forward = True
+backwards = True
 
 # This is a simple class that will help us print to the screen
 # It has nothing to do with the joysticks, just outputting the
@@ -105,23 +105,23 @@ while done == False:
             axis = joystick.get_axis(i)
             textPrint.print(screen, "Axis {} value: {:>6.3f}".format(i, axis))
             if i == 0:
-                if axis < 0.6 and not right:
+                if axis > 0.7 and not right:
                     print("Right")
                     right = True
-                    ser.write(b't')
-                if axis > 0.5 and right:
+                    ser.write(b'y')
+                if axis < 0.5 and right:
                     print("Not right")
                     right = False
-                    ser.write(b'g')
-                if axis > -0.6 and not left:
+                    ser.write(b'h')
+                if axis < -0.7 and not left:
                     print("Left")
                     left = True
-                    ser.write(b'y')
-                if axis < -0.5 and left:
+                    ser.write(b't')
+                if axis > -0.5 and left:
                     print("Not left")
                     left = False
-                    ser.write(b'h')
-            elif i == 1:
+                    ser.write(b'g')
+            if i == 1:
                 if axis < 0.5 and not forward:
                     print("Accelerating")
                     forward = True
@@ -130,6 +130,15 @@ while done == False:
                     print("Stop")
                     forward = False
                     ser.write(b'j')
+            elif i == 2:
+                if axis < 0.5 and not backwards:
+                    print("Back")
+                    backwards = True
+                    ser.write(b'i')
+                if axis > 0.6 and backwards:
+                    print("not back")
+                    backwards = False
+                    ser.write(b'k')
 
         textPrint.unindent()
 
